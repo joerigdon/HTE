@@ -122,7 +122,7 @@ plot(fit, type="simple")
 
 
 ## predict delta for original data
-tab3 = mktab(data=dta4, var.names=c("AGE", "FEMALE", "race", "BMI", "TRR", "HDL", "CHR", "GLUR", "UMALCR", "SCREAT", "SBP", "DBP", "SMOKE_3CAT", "ASPIRIN", "STATIN"), ind.cat=c(0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1), group.name="EVENT_PRIMARYORDEATH", cfn=describeMean, miss="always", pval=FALSE, tot=FALSE, digit=1)
+tab3 = mktab(data=dta4[dta4$ID %in% org3$ID, ], var.names=c("AGE", "FEMALE", "race", "BMI", "TRR", "HDL", "CHR", "GLUR", "UMALCR", "SCREAT", "SBP", "DBP", "SMOKE_3CAT", "ASPIRIN", "STATIN"), ind.cat=c(0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1), group.name="INTENSIVE", cfn=describeMean, miss="always", pval=FALSE, tot=FALSE, digit=1)
 
 
 #sel = c("AGE", "race", "SMOKE_3CAT", "SCREAT")
