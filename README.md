@@ -5,4 +5,4 @@ This repository contains files related to the manuscript "Preventing false subgr
 3. SimCode1A.R, SimCode1B.R, etc. contain all of the code to analyze the simulated data sets presented in the paper.
 4. TablesASD.R, contaning functions for easily making tables of absolute standardized differences to be saved in Microsoft Word
 
-Please email Joe Rigdon at jrigdon@stanford.edu if you have questions about any of the files in this repository.  
+Please email Joe Rigdon at jrigdon@wakehealth.edu if you have questions about any of the files in this repository.  
